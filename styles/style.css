@@ -1,0 +1,36 @@
+/* For Full Website */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Shared Section */
+
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    color: #3A3A3A;
+font-size: 1rem;
+font-weight: 600;
+}
