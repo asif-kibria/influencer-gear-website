@@ -12,8 +12,9 @@
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     align-items: center;
-    margin: 50px 120px;
+    margin: 40px 120px;
 }
 
 .nav-title {
@@ -31,6 +32,95 @@ nav>ul {
 nav ul li {
     margin-right: 20px;
     color: #3A3A3A;
-font-size: 1rem;
-font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Banner Section */
+.banner-container {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 200px;
+
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.banner-btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    margin-top: 10px;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+}
+
+.banner-image {}
+
+/* Brands Partner Section */
+.brands-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.brands-container img {
+    padding-right: 30px;
+}
+
+/* Popular Section */
+
+
+/* Features Section */
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    margin: 60px 160px;
+}
+
+.features-title {
+    color: #0A0826;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.features-description {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.features-btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: none;
 }
